@@ -112,6 +112,7 @@ Use small pages that help the next build:
 
 - `notes/learning-log.md` — concepts learned, in Franz's words, with a runnable example or screenshot when useful.
 - `notes/decisions.md` — decisions, alternatives considered, reason, date, and evidence that could change the decision.
+- `notes/decision-policy.md` — decision priorities and privacy/publication checks.
 - `templates/task-brief.md` — goal, acceptance checks, constraints, focus box, and first proof.
 - `templates/build-checkpoint.md` — changed files, explanation, checks and results, known limits, next step, archive reference.
 
@@ -135,7 +136,7 @@ my-builds/
 
 Keep source, documentation, decisions, and project-owned demo evidence in Git. Do not commit credentials, API keys, private customer data, personal network captures, or generated dependency/build folders. Add a suitable `.gitignore` per project. Preserve prototypes as folders, branches, or versioned tags; do not silently overwrite history.
 
-**Archive status:** Cosmos reference materials are being added to `CodebruteDamage/Guardrails`. The project build source code was not present in the workspace at archive time; build folders are placeholders, not completed builds. Archive each real project only after its files are available and sensitive data has been excluded.
+**Archive status:** The Cosmos blueprint and its learning/decision templates have been published to [`CodebruteDamage/Guardrails`](https://github.com/CodebruteDamage/Guardrails/tree/main/my-builds). The project source code for Franz's other builds was not present in the workspace at that time, so the empty build folders are placeholders, not archived or completed projects. Keep personal information, CVs, private contact details, credentials, and private client data out of this public repository.
 
 ## 9. Prototype completion checkpoint
 
@@ -148,3 +149,5 @@ Before calling a prototype ready to publish, summarize:
 - Then ask Franz: **“For the next prototype, should we make the core-to-skin layers modular for easier adaptation across platforms, or keep this version integrated until a specific reuse need appears?”**
 
 This question is intentionally reserved for the final prototype review, when the tradeoff is concrete.
+
+
